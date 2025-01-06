@@ -1,0 +1,16 @@
+ul{
+    display:flex;
+    justify-content: space-between;
+    background-color: lightpink;
+    padding: 14px 16px;
+}
+li{
+    text-decoration: none;
+    list-style: none;    
+}
+li a:hover{
+    color:black;
+    background-color:skyblue;
+    padding: 14px 16px;
+}
+
