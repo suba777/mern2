@@ -1,0 +1,285 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 50%;
+}
+.topnav {
+    justify-content: end;
+    display: flex;
+    background-color:#181523;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.topnav :hover{ 
+
+  color: red;
+}
+.btn1{
+    padding: 15px 28px;
+    background-color: red;
+    color: white;
+    border: 2px black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.35 ease;
+    cursor: pointer; 
+ }
+
+.home{
+   /* margin-top:10rem;*/
+   padding-top: 100px;
+   padding-right: 100px;
+   padding-left: 100px;
+    background-color: #181523;
+padding: 8% 12%;
+}
+.home-row{
+    display: flex
+}
+.profile-img{
+    width: 50%;
+    img{
+        width: 50%;
+        
+    }
+}
+.ho h3{
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    
+}
+.ho h4{
+    color: white #181523;
+    font-size: 50px;
+    text-align: left;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.btn-2{
+   padding: 15px 28px;
+   background-color: red;
+   color: white;
+   border: 2px black;
+   border-radius: 8px;
+   font-size: 18px;
+   letter-spacing: 1px;
+   font-weight: 600;
+   transition: 0.35 ease;
+   cursor: pointer; 
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+
+}
+::-webkit-scrollbar-track{
+    width: 50px;
+    background-color: black;
+
+}
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px red;
+      border-radius: 50%;        
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 40px;
+}
+.about-content h3{
+    text-align: left;
+    color: beige;
+    font-size: 62px;
+}
+.about-content p{
+    text-align: left;
+    color: beige;
+    font-size: 40px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.edu p{
+    text-align: left;
+    color: beige;
+    font-size: 40px;
+}
+.trail{
+   
+   font-size: 40px;
+    padding:  8% 12%;
+    background-color: #181523;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width:100%;
+    padding:40px;
+    background-color:#181523;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom:25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px salmon;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow:inset 0 0 10px orangered,0 0 10px orangered;
+    transition: 0.3s ease;
+}
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+.footer ul{
+    margin-top:0;
+    padding:0;
+    font-size: 18px;
+    line-height:1.6;
+    margin-bottom:0;
+    text-align:center;
+}
+.footer ul li a{
+    color:white;
+    border-bottom:3 px solid transparent;
+    transition:0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom:3 px solid orangered;
+    
+}
+.footer ul li {
+    padding:8% 12%;
+    display: inline-block;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size:12 px;
+    color:white;
+}
+.contact{
+color:white;
+padding: 0%;
+font-size: 2em;;
+text-align: center;
+background-color: #181523;
+}
+.quali{
+    background-color: #181523;
+    color:white;
+font-size: 2em;;
+text-align: center;
+padding:  8% 12%;
+gap: 10em;
+
+}
+.edu p{
+        text-align: left;
+        color: white;
+        font-size: 40px;
+    }
+.edu h3{
+        text-align: left;
+        color: beige;
+        font-size: 62px;
+    }
+.projects{
+    background-color: #181523;
+    font-size:60px;
+    padding: 8% 12%;
+text-align: left;
+color:white;
+}
+.pro ul{
+    text-align: left;
+    color: white;
+    font-size: 40px;
+}
+.pro  h3{
+    text-align: left;
+    color: beige;
+    font-size: 62px;
+}
+.skills{
+    background-color: #181523;
+    color:white;
+    padding: 8% 12%;
+    font-size: 60px;
+    text-align: left;
+}
+.ski {
+    font-size: 40px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .typed-out{
+      overflow: hidden;
+      border-right: .15em ;
+      white-space: nowrap;
+      font-size: 1.6rem;
+      width: 0;
+      animation: typing 3s forwards;
+  }
+  .typed-out2{
+      overflow: hidden;
+      border-right: .15em ;
+      white-space: nowrap;
+      font-size: 1.6rem;
+      width: 0;
+      animation: typing 6s forwards;
+  }
+ 
